@@ -46,7 +46,7 @@ java -version
    - Images with known hidden data
    - Suspicious images for analysis
 
-![test image collection](Output%20Screenshot/Exp8/Screenshot%20From%202025-10-26%2015-34-07.png)
+![test image collection](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/c3b95b852a3f4d70eb5b4fb937be0eb65b72e3bc/img/df%20exp%208%20(1).png)
 
 ### 3. Basic Image Analysis
 
@@ -55,7 +55,7 @@ java -version
 java -jar StegExpose.jar /home/kali/Downloads/testingsteg -a -r result1.csv
 ```
 this will make the result to save in the .CSV file
-![batch analysis](Output%20Screenshot/Exp8/Screenshot%20From%202025-10-26%2015-00-32.png)
+![batch analysis](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/c3b95b852a3f4d70eb5b4fb937be0eb65b72e3bc/img/df%20exp%208%20(2).png)
 
 ### 4. Analyze the Output
 1. After running the tool, it will analyze the image and provide a score.
@@ -67,7 +67,7 @@ this will make the result to save in the .CSV file
    - 0.2 - 0.3: Possibly some hidden data.
    - Above 0.3: Likely that steganography is present.
 
-![report image](Output%20Screenshot/Exp8/Screenshot%20From%202025-10-26%2015-55-16.png)
+![report image](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/c3b95b852a3f4d70eb5b4fb937be0eb65b72e3bc/img/df%20exp%208%20(3).png)
 
 ### 5. Result Interpretation
 1. Understanding the output scores:
@@ -75,7 +75,7 @@ this will make the result to save in the .CSV file
    - 0.2 to 0.4: Suspicious
    - Above 0.4: High probability of hidden content
 
-![result interpretation](Output%20Screenshot/Exp8/Screenshot%202025-10-26%20155902.png)
+![result interpretation](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/c3b95b852a3f4d70eb5b4fb937be0eb65b72e3bc/img/df%20exp8.png)
 
 ---
 
