@@ -25,15 +25,15 @@ The **Mail Header Analyzer (MHA)** is a tool that helps in decoding and analyzin
    - Open the suspicious email in your email client (e.g., Gmail, Outlook).  
    - Select the option to view the full message or email header.  
    - Copy the raw header content.  
-![alt text](<Output Screenshot/Exp4/Screenshot 2025-09-01 000055.png>)
-![alt text](<Output Screenshot/Exp4/Screenshot (81).png>)
+![alt text](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/c2c4612224c37756256f65a2b0238ca8319e96fa/img/df%20exp%204%20(1).png)
+![alt text](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/c2c4612224c37756256f65a2b0238ca8319e96fa/img/df%20exp%204%20(2).png)
      
 
 **Access Mail Header Analyzer (MHA)**  
    - Open the Mail Header Analyzer tool (e.g., https://mha.azurewebsites.net/).
-![alt text](<Output Screenshot/Exp4/Screenshot (83).png>)     
+![alt text](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/c2c4612224c37756256f65a2b0238ca8319e96fa/img/df%20exp%204%20(3).png)     
    - Paste the copied email header into the input box.  
-![alt text](<Output Screenshot/Exp4/Screenshot (84).png>)  
+![alt text](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/c2c4612224c37756256f65a2b0238ca8319e96fa/img/df%20exp%204%20(4).png)  
 
 **Analyze the Header**  
    - Click **Analyze** to process the email header.  
@@ -41,19 +41,19 @@ The **Mail Header Analyzer (MHA)** is a tool that helps in decoding and analyzin
      - Source IP address of the sender  
      - Mail servers that relayed the message  
      - Authentication checks (SPF, DKIM, DMARC)  
-![alt text](<Output Screenshot/Exp4/Screenshot (85).png>)
-![alt text](<Output Screenshot/Exp4/Screenshot (86).png>)
+![alt text](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/c2c4612224c37756256f65a2b0238ca8319e96fa/img/df%20exp%204%20(5).png)
+![alt text](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/c2c4612224c37756256f65a2b0238ca8319e96fa/img/df%20exp%204%20(6).png)
   
 
 **Check Authentication Results**  
    - Look for SPF, DKIM, and DMARC status.  
    - If any of them fail, it could be a sign of spoofing.  
- ![alt text](<Output Screenshot/Exp4/Screenshot (81.2).png>) 
+ ![alt text](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/c2c4612224c37756256f65a2b0238ca8319e96fa/img/df%20exp%204%20(7).png) 
 
 **Inspect Mail Path**  
    - Review the route taken by the email across multiple servers.  
    - Compare the originating IP and domain with the claimed sender’s address.  
-![alt text](<Output Screenshot/Exp4/Screenshot (84.2).png>)  
+![alt text](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/c2c4612224c37756256f65a2b0238ca8319e96fa/img/df%20exp%204%20(8).png)  
 
 **Detect Spoofing Indicators**  
    - Identify inconsistencies such as:  
@@ -61,10 +61,10 @@ The **Mail Header Analyzer (MHA)** is a tool that helps in decoding and analyzin
      - Failed SPF/DKIM/DMARC checks  
      - Abnormal relay servers not belonging to the claimed domain 
 **Example of Malicious email header with abnormal delay**
-![alt text](<Output Screenshot/Exp4/Screenshot (86).png>)
-![alt text](<Output Screenshot/Exp4/Screenshot (87).png>)
-![alt text](<Output Screenshot/Exp4/Screenshot (88).png>)
-![alt text](<Output Screenshot/Exp4/Screenshot (89).png>)
+![alt text](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/c2c4612224c37756256f65a2b0238ca8319e96fa/img/df%20exp%204%20(9).png)
+![alt text](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/c2c4612224c37756256f65a2b0238ca8319e96fa/img/df%20exp%204%20(10).png)
+![alt text](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/c2c4612224c37756256f65a2b0238ca8319e96fa/img/df%20exp%204%20(11).png)
+![alt text](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/c2c4612224c37756256f65a2b0238ca8319e96fa/img/df%20exp%204%20(12).png)
 
 ---
 
