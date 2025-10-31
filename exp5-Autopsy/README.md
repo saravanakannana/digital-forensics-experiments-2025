@@ -23,14 +23,14 @@ Autopsy is a popular open-source digital forensics platform used by law enforcem
    - Open Autopsy digital forensics tool
    - Wait for the application to initialize
    
-   ![Autopsy welcome screen](Output%20Screenshot/Exp5/Screenshot%202025-10-23%20193917.png)
+   ![Autopsy welcome screen](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/30efc6c4dc1bb35b9d3d7990750d15098d027e33/img/df%20exp%205%20(1).png)
 
 2. **Create New Case**
    - Click on "Create New Case" option
    - Enter case name, base directory for case storage
    - Fill in optional case details (examiner name, case number, etc.)
    
-   ![New case creation](Output%20Screenshot/Exp5/Screenshot%202025-10-23%20193953.png)
+   ![New case creation](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/30efc6c4dc1bb35b9d3d7990750d15098d027e33/img/df%20exp%205%20(2).png)
 
 3. **Configure Case Database**
    - Select the database type (Single-user or Multi-user)
@@ -42,7 +42,7 @@ Autopsy is a popular open-source digital forensics platform used by law enforcem
    - Select the type of data source (disk image, local drive, logical files)
    - Browse and select the evidence file
    
-   ![Add data source](Output%20Screenshot/Exp5/Screenshot%202025-10-23%20194311.png)
+   ![Add data source](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/30efc6c4dc1bb35b9d3d7990750d15098d027e33/img/df%20exp%205%20(3).png)
 
 5. **Configure Ingest Modules**
    - Select relevant ingest modules for analysis
@@ -54,15 +54,15 @@ Autopsy is a popular open-source digital forensics platform used by law enforcem
      - etc.
    - Configure settings for selected modules
    
-   ![Ingest modules](Output%20Screenshot/Exp5/Screenshot%202025-10-23%20194505.png)
+   ![Ingest modules](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/30efc6c4dc1bb35b9d3d7990750d15098d027e33/img/df%20exp%205%20(4).png)
 
 6. **Start Analysis**
    - Review selected options
    - Click "Finish" to begin processing
    - Monitor ingest progress
    
-   ![Analysis progress 1](Output%20Screenshot/Exp5/Screenshot%202025-10-23%20194512.png)
-   ![Analysis progress 2](Output%20Screenshot/Exp5/Screenshot%202025-10-23%20194545.png)
+   ![Analysis progress 1](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/30efc6c4dc1bb35b9d3d7990750d15098d027e33/img/df%20exp%205%20(5).png)
+   ![Analysis progress 2](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/30efc6c4dc1bb35b9d3d7990750d15098d027e33/img/df%20exp%205%20(6).png)
 
 ---
 
@@ -76,7 +76,7 @@ After completing this experiment, you should be able to:
 ---
 The imported evidence will be ready for detailed forensic analysis using Autopsy's various tools and features. The case structure is now set up to maintain proper chain of custody and documentation of the investigation process.
 
-![Final case view](Output%20Screenshot/Exp5/Screenshot%202025-10-23%20210153.png)
+![Final case view](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/30efc6c4dc1bb35b9d3d7990750d15098d027e33/img/df%20exp%205%20(7).png)
 
 Note: Remember to document all steps and maintain proper chain of custody throughout the process. Each action taken in Autopsy is logged and can be reviewed later as part of the investigation documentation.
 
