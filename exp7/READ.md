@@ -42,7 +42,7 @@ This experiment demonstrates the forensic acquisition of data from an Android de
 ```powershell
    adb devices
 ```
-![adb devices](Output%20Screenshot/Exp7/Screenshot%202025-10-23%20231526.png)
+![adb devices](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/5ff07584c91af9bab57a3fbb3504cc95de8a0b2d/df%20exp%207%20(1).png)
 <!-- [Insert Screenshot: ADB devices list output] -->
 
 3. Check device details:
@@ -50,7 +50,7 @@ This experiment demonstrates the forensic acquisition of data from an Android de
    adb shell getprop ro.product.model
    adb shell getprop ro.build.version.release
 ```
-![device properties](Output%20Screenshot/Exp7/Screenshot%202025-10-23%20233804.png)
+![device properties](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/5ff07584c91af9bab57a3fbb3504cc95de8a0b2d/df%20exp%207%20(13).png)
 <!-- [Insert Screenshot: Device properties output] -->
 
 ### 2. Creating Full ADB Logical Backup
@@ -58,14 +58,14 @@ This experiment demonstrates the forensic acquisition of data from an Android de
 ```powershell
    adb backup -f device_backup.ab -all -system -shared -apk
 ```
-![backup creation](Output%20Screenshot/Exp7/Screenshot%202025-10-23%20234009.png)
+![backup creation](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/5ff07584c91af9bab57a3fbb3504cc95de8a0b2d/df%20exp%207%20(12).png)
 <!-- [Insert Screenshot: Backup creation dialog on device] -->
 
 2. Monitor backup progress:
 ```powershell
    dir device_backup.ab
 ```
-![backup file size](Output%20Screenshot/Exp7/Screenshot%202025-10-23%20234443.png)
+![backup file size](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/5ff07584c91af9bab57a3fbb3504cc95de8a0b2d/df%20exp%207%20(10).png)
 <!-- [Insert Screenshot: File size and creation time] -->
 
 ### 3. Backup Integrity Verification
@@ -73,7 +73,7 @@ This experiment demonstrates the forensic acquisition of data from an Android de
 ```powershell
    certutil -hashfile device_backup.ab SHA256
 ```
-![hash verification](Output%20Screenshot/Exp7/Screenshot%202025-10-23%20234443.png)
+![hash verification](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/5ff07584c91af9bab57a3fbb3504cc95de8a0b2d/df%20exp%207%20(11).png)
 <!-- [Insert Screenshot: Hash output] -->
 
 ### 4. Creating External Storage Only Backup
@@ -81,7 +81,7 @@ This experiment demonstrates the forensic acquisition of data from an Android de
 ```powershell
    adb devices
 ```
-![adb connection check](Output%20Screenshot/Exp7/Screenshot%202025-10-24%20230100.1.png)
+![adb connection check](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/5ff07584c91af9bab57a3fbb3504cc95de8a0b2d/df%20exp%207%20(9).png)
 <!-- [Insert Screenshot: Shared storage backup dialog] -->
 
 2. Find the external storage path:
@@ -92,7 +92,7 @@ This experiment demonstrates the forensic acquisition of data from an Android de
 emulated  self  XXXX-XXXX
 The one with numbers (e.g. XXXX-XXXX) is your SD card.
 
-![storage list](Output%20Screenshot/Exp7/Screenshot%202025-10-24%20230100.1.2.png)
+![storage list](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/5ff07584c91af9bab57a3fbb3504cc95de8a0b2d/df%20exp%207%20(8).png)
 
 3. Create a backup folder on the host computer, for example:
 ```poweshell
@@ -109,7 +109,7 @@ Replace XXXX-XXXX with your card ID:
 
 5. Verify backup creation:
 
-![backup verification](Output%20Screenshot/Exp7/Screenshot%202025-10-24%20225851.png)
+![backup verification]()
 <!-- [Insert Screenshot: Shared storage backup file details] -->
 
 6. Compare sizes of full backup vs shared storage backup:
