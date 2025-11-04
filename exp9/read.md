@@ -33,8 +33,8 @@ Process Explorer is an advanced system monitoring tool that provides detailed in
    - Enable "Verify Image Signatures"
    - Configure VirusTotal integration
    
-![Process Explorer setup](Output%20Screenshot/Exp9/Screenshot%20(123).png)
-![Process Explorer setup](Output%20Screenshot/Exp9/Screenshot%20(124).png)
+![Process Explorer setup](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/5cd23ee4e7352c3faab2e212a6f401fffd57aa64/img/df%20exp%209%20(1).png)
+![Process Explorer setup](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/5cd23ee4e7352c3faab2e212a6f401fffd57aa64/img/df%20exp%209%20(9).png)
 
 <!-- [Insert Screenshot: Place screenshot of Process Explorer initial setup] -->
 
@@ -43,7 +43,7 @@ Process Explorer is an advanced system monitoring tool that provides detailed in
    - Upper pane: Process list
    - Lower pane: Handle or DLL view
 
-![Process Explorer interface](Output%20Screenshot/Exp9/Screenshot%20(127).png)
+![Process Explorer interface](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/5cd23ee4e7352c3faab2e212a6f401fffd57aa64/img/df%20exp%209%20(8).png)
 <!-- [Insert Screenshot: Place screenshot showing Process Explorer main interface] -->
 
 2. Understanding the color coding:
@@ -52,7 +52,7 @@ Process Explorer is an advanced system monitoring tool that provides detailed in
    - Blue: New processes
    - Red: Terminated processes
 
-![Process color coding](Output%20Screenshot/Exp9/Screenshot%20(126).1.png)
+![Process color coding](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/5cd23ee4e7352c3faab2e212a6f401fffd57aa64/img/df%20exp%209%20(7).png)
 <!-- [Insert Screenshot: Place screenshot highlighting different process colors] -->
 
 ### 3. Identifying Suspicious Processes
@@ -72,7 +72,7 @@ Process Explorer is an advanced system monitoring tool that provides detailed in
    - Start time
    - User account
    
-![Process properties](Output%20Screenshot/Exp9/Screenshot%20(130).png)
+![Process properties](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/5cd23ee4e7352c3faab2e212a6f401fffd57aa64/img/df%20exp%209%20(6).png)
 <!-- [Insert Screenshot: Place screenshot of process properties window] -->
 
 ### 5. VirusTotal Integration
@@ -81,7 +81,7 @@ Process Explorer is an advanced system monitoring tool that provides detailed in
    - Right-click process
    - Select "Check VirusTotal"
    
-![VirusTotal check](Output%20Screenshot/Exp9/Screenshot%20(137).png)
+![VirusTotal check](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/5cd23ee4e7352c3faab2e212a6f401fffd57aa64/img/df%20exp%209%20(5).png)
 <!-- [Insert Screenshot: Place screenshot showing VirusTotal check results] -->
 
 ### 6. DLL and Handle Investigation
@@ -89,14 +89,14 @@ Process Explorer is an advanced system monitoring tool that provides detailed in
    - Select process
    - Lower pane: DLL view
    
-![DLL investigation](Output%20Screenshot/Exp9/Screenshot%20(133).png)
+![DLL investigation](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/5cd23ee4e7352c3faab2e212a6f401fffd57aa64/img/df%20exp%209%20(4).png)
 <!-- [Insert Screenshot: Place screenshot of DLL investigation] -->
 
 2. Analyze handles:
    - Switch to handle view
    - Look for suspicious file/registry handles
    
-![Handle analysis](Output%20Screenshot/Exp9/Screenshot%20(138).png)
+![Handle analysis](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/5cd23ee4e7352c3faab2e212a6f401fffd57aa64/img/df%20exp%209%20(3).png)
 <!-- [Insert Screenshot: Place screenshot of handle analysis] -->
 
 ### 7. Tree View Analysis
@@ -104,7 +104,7 @@ Process Explorer is an advanced system monitoring tool that provides detailed in
    - Enable tree view
    - Identify parent-child relationships
    
-![Process tree view](Output%20Screenshot/Exp9/Screenshot%20(134).png)
+![Process tree view](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/5cd23ee4e7352c3faab2e212a6f401fffd57aa64/img/df%20exp%209%20(2).png)
 <!-- [Insert Screenshot: Place screenshot of process tree view] -->
 
 ---
