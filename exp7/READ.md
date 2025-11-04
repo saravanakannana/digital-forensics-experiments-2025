@@ -109,11 +109,11 @@ Replace XXXX-XXXX with your card ID:
 
 5. Verify backup creation:
 
-![backup verification]()
+![backup verification](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/ca570cfce2f1203be456d97969d3cf37733d62b0/img/df%20exp%207%20(7).png)
 <!-- [Insert Screenshot: Shared storage backup file details] -->
 
 6. Compare sizes of full backup vs shared storage backup:
-![size comparison](Output%20Screenshot/Exp7/Screenshot%202025-10-24%20225926.png)
+![size comparison](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/ca570cfce2f1203be456d97969d3cf37733d62b0/img/df%20exp%207%20(6).png)
 <!-- [Insert Screenshot: Size comparison of backup files] -->
 
 
@@ -123,9 +123,9 @@ Replace XXXX-XXXX with your card ID:
 ```powershell
    tar -cvf sd_backup.tar "C:\Users\K CHANDRA SEKHAR\backup"
 ```
-![tar creation 1](Output%20Screenshot/Exp7/Screenshot%202025-10-24%20233410.png)
+![tar creation 1](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/ca570cfce2f1203be456d97969d3cf37733d62b0/img/df%20exp%207%20(5).png)
 
-![tar creation 2](Output%20Screenshot/Exp7/Screenshot%202025-10-24%20233430.png)
+![tar creation 2](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/ca570cfce2f1203be456d97969d3cf37733d62b0/img/df%20exp%207%20(4).png)
 <!-- [Insert Screenshot: Conversion process output] -->
 
 ### 6. Extracting Backup Contents
@@ -133,14 +133,14 @@ Replace XXXX-XXXX with your card ID:
 ```powershell
    tar -xvf sd_backup.tar -C D:\extracted_backup\
 ```
-![tar extraction](Output%20Screenshot/Exp7/Screenshot%202025-10-24%20234127.png)
+![tar extraction](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/ca570cfce2f1203be456d97969d3cf37733d62b0/img/df%20exp%207%20(3).png)
 <!-- [Insert Screenshot: Extraction process] -->
 
 2. List extracted contents:
 ```powershell
    dir extracted_backup /s
 ```
-![directory listing](Output%20Screenshot/Exp7/Screenshot%202025-10-24%20234421.png)
+![directory listing](https://github.com/saravanakannana/digital-forensics-experiments-2025/blob/ca570cfce2f1203be456d97969d3cf37733d62b0/img/df%20exp%207%20(2).png)
 <!-- [Insert Screenshot: Directory listing] -->
 
 ### 7. Data Analysis
